@@ -4452,6 +4452,7 @@ type EventNotification struct {
 	URL string `json:"url,omitempty"`
 	// When set to **true**, the notifications are sent to your endpoint as SOAP requests.
 	UseSoapInterface DSBool `json:"useSoapInterface,omitempty"`
+	IncludeHMAC DSBool `json:"includeHMAC,omitempty"`
 }
 
 type EventResult struct {
