@@ -1,1 +1,1 @@
-copied from github.com/jfcote87/esign
+copied from https://github.com/jfcote87/esign
