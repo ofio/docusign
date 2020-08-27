@@ -11,7 +11,7 @@
 //
 // Api documentation may be found at:
 // https://developers.docusign.com/esign-rest-api/reference
-package model // import "github.com/jfcote87/esign/v2/model"
+package model // import "github.com/ofio/esign/v2/model"
 
 import (
 	"fmt"
@@ -4452,7 +4452,7 @@ type EventNotification struct {
 	URL string `json:"url,omitempty"`
 	// When set to **true**, the notifications are sent to your endpoint as SOAP requests.
 	UseSoapInterface DSBool `json:"useSoapInterface,omitempty"`
-	IncludeHMAC DSBool `json:"includeHMAC,omitempty"`
+	IncludeHMAC      DSBool `json:"includeHMAC,omitempty"`
 }
 
 type EventResult struct {

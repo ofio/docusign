@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jfcote87/esign"
-	"github.com/jfcote87/esign/click"
+	"github.com/ofio/esign"
+	"github.com/ofio/esign/click"
 )
 
 func Example() {
